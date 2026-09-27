@@ -8,8 +8,8 @@ on:
     paths:
       - .github/workflows/autobump.yml
   schedule:
-    # Every day at 1:45 UTC
-    - cron: 45 1 * * *
+    # Every day at 4:45 China Standard Time (20:45 UTC)
+    - cron: 45 20 * * *
 
 permissions: {}
 
