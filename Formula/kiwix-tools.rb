@@ -8,4 +8,8 @@ class KiwixTools < Formula
   def install
     bin.install "kiwix-serve", "kiwix-search", "kiwix-manage"
   end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/kiwix-serve --version")
+  end
 end
