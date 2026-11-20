@@ -1,8 +1,8 @@
 class AudioCpp < Formula
   desc "Local audio model inference with a native C++ runtime"
   homepage "https://github.com/0xShug0/audio.cpp"
-  url "https://github.com/0xShug0/audio.cpp/releases/download/v0.9.4/audio-v0.9.4-bin-macos-arm64-metal.tar.gz"
-  sha256 "5722c4f33e56114345965c0dee472a9239218f7499ace6393bba6a951a41b86a"
+  url "https://github.com/0xShug0/audio.cpp/releases/download/v0.9.5/audio-v0.9.5-bin-macos-arm64-metal.tar.gz"
+  sha256 "286e4e266212b2cd4012418268f4f972440bdd984cf5decfe6b427b543ccb5fd"
   license "Apache-2.0"
 
   depends_on arch: :arm64
